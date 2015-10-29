@@ -1,0 +1,188 @@
+@CHARSET "ISO-8859-1";
+.hid {
+	width 0;
+	height: 0;
+	padding: 0;
+	margin: 0;
+}
+body {
+	color: white; 
+	background-color: #004b13;
+	font-size: 10pt;
+}
+.slogan {
+	font-size: 320%;
+	line-height: 125%;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	z-index: 2;
+}
+.logobild {
+	z-index: 0;
+}
+.p0 {
+	padding: 0;
+}
+.pl1 {
+	padding-left: 2em;
+	height: 480px;
+}
+.menubereich {
+	height: 480px;
+ 	background-image: url("/img/hg_gruen_mit_logo_320x480.png");
+	background-repeat: no-repeat;
+	width: 100%; 
+	z-index: 0;
+}
+.menu_ul {
+	margin-top: 20px;
+/* 	position: relative;
+	top: -400px; */
+}
+.menu_ul li {
+	color: yellow;
+	list-style: none;
+ 	line-height: 240%;
+	font-size: 150%;
+}
+
+.ueberschrift_1 {
+	color: yellow;
+	margin-top: 2em;
+}
+.ueberschrift {
+	margin-top: 2em;
+}
+.disclaimer {
+	font-size: 75%;
+}
+.kompetenzen_ul li{
+	margin-left: -2em;
+}
+.referenzen_ul li{
+	margin-left: -2em;
+}
+.referenzen_ul li ul li{
+	color: #84b522;
+}
+a:VISITED, a:LINK, .menu_ul li a:VISITED, .menu_ul li a:LINK {
+	color: white;
+}
+.index_referenzen {
+	margin: 340px 0 0 10pt;
+	font-size: 125%; 
+	text-indent: -10pt;
+}
+.outer_container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+	height: 728px;
+	width: 970px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 60px 30px silver;
+}
+
+.formKontakt {
+/* 	position: relative;
+	top: 	-380px;
+	left:	20px; */
+	width:	240px;
+}
+#senden {
+	width: 240px;
+	float: right;
+}
+.input-xlarge {
+	width: 240px;
+}
+.okMeldung {
+	color: green;
+	background-color: #f0fff0;
+	padding: 4px;
+}
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+.dokusAnzeigen {
+	
+}
+.uploadBar {
+	margin-top: 20px;
+	background-color: #ffffdf;
+	color: green;
+	width: 99%;
+	font-size: 80%;
+}
+.docTable {
+	width: 99%;
+	font: 9pt Verdana;
+	overflow: auto;
+}
+.DokListeAnzeige {
+	font-size: 8pt;
+}
+.cssKopf {      
+	background-color: #4a9810;  
+	color: yellow;
+	font-weight: normal;
+}
+.cssLineOdd {   
+/* 	background-color: #4a9810;  
+	color: #84b522; */
+	background-color: #004b13;  
+	color: white;
+}
+.cssLineEven {  
+/* 	background-color: #84b522;  
+	color: green; */
+	background-color: #004b13;  
+	color: white;
+}
+#btnFileupload {
+	width:  65px;
+	height: 18px;
+}
+#uploaded {
+	width: 280px;
+	height: 18px;
+	background-color: #ffffdf;
+	color: green;
+}
+
+input, textarea {
+	color: green;
+}
+td {
+	padding-left: 3px;
+	padding-right: 3px;	
+}
+
+.glyphicon-retweet {
+       color: green; 
+}
+
+
+.xxx{
+    background: rgb(115,165,51); /* Old browsers */
+    background: -moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7cfdf), color-stop(100%,#23538a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #a7cfdf 0%,#23538a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
+
